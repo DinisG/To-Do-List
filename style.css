@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 150px;
+    background-color: aliceblue;
+}
+
+.container{
+    margin-left: 41%;
+    width: fit-content;
+    display: flex;
+}
+
+#inputfield {
+    margin: 0;
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    vertical-align: center;
+    font-size: 1.4em;
+}
+
+#addToDo{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+.to-dos {
+    margin-top: 25px;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+#todoContainer{
+    display: block;
+    text-align: left;
+    margin-left: 41%;
+}
